@@ -32,7 +32,7 @@ btnClck(){
       <div>
       <h3>Toggle</h3>
        <button className='btn btn-warning' onClick={this.btnClck}> {
-        this.state.isToggleOn ? 'switch on the light':'switch off the light'
+        this.state.isToggleOn ? 'Swith ONN':'Switch OFF'
        } </button>
        <hr style={styles.hr}/>
       </div>
